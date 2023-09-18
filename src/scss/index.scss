@@ -1,10 +1,12 @@
-*{
+@import "./constants/constants";
+
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
-body{
-	background: darkgreen;
+body {
+	background: $primary1;
 	font-size: 1.3rem;
 }
