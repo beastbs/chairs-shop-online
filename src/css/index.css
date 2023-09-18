@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box; }
 
-body {
-  background: #F13C6E;
-  font-size: 1.3rem; }
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid transparent; }
+  a:hover {
+    border-bottom-color: #000;
+    transition: border-bottom-color .3s linear; }

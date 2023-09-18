@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	line-height: 10px;
+	color: $title-text-color;
+}
+
+a {
+	text-decoration: none;
+	color: $link-text-color;
+	border-bottom: 2px solid transparent;
+	
+	&:hover{
+		border-bottom-color: $link-text-color;
+		transition: border-bottom-color .3s linear;
+	}
+}
