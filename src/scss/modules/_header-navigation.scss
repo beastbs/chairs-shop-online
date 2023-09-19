@@ -1,0 +1,22 @@
+.header-navigation {
+	background: $primary3;
+	&__wrapper{
+		padding: 17px 0px;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		& > li:not(:last-child){
+			margin-right: 30px;
+		}
+	}
+
+	&__link {
+		color: $info-text-color;
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+	}
+}

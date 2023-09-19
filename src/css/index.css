@@ -15,3 +15,21 @@ a {
   a:hover {
     border-bottom-color: #000;
     transition: border-bottom-color .3s linear; }
+
+li {
+  list-style: none; }
+
+.header-navigation {
+  background: #e5e5e5; }
+  .header-navigation__wrapper {
+    padding: 17px 0px; }
+  .header-navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header-navigation__list > li:not(:last-child) {
+      margin-right: 30px; }
+  .header-navigation__link {
+    color: #333;
+    font-size: 1.4rem;
+    line-height: 1.6rem; }
