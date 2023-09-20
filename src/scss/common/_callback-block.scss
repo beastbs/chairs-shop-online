@@ -1,0 +1,12 @@
+.callback-block{
+	&__tel-number{
+		font-size: 1.6em;
+		line-height: 1.9rem;
+		color: $link-text-color;
+	}
+
+	&__callback-button{
+		border-color: $primary1 !important;
+		background: $primary2;
+	}
+}
