@@ -1,0 +1,60 @@
+$info-block-input-text-color: #c4c4c4;
+
+.info-block{
+	width: 540px;
+	display: flex;
+	justify-content: space-between;
+
+	background: $primary1;
+	color: $main-text-color;
+	border-radius: 3px;
+	padding: 35px 40px;
+
+	&__main-block{
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title{
+		font-size: 1.8rem;
+		line-height: 2.6rem;
+		font-weight: bold;
+	}
+
+	&__description{
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+
+	&__input{
+		max-width: 225px;
+		border-radius: 30px;
+		background: $primary2;
+		padding: 9px 9px 9px 25px;
+		border: none;
+		outline: none;
+		font-size: 1.4rem;
+
+		&::placeholder{
+			color: $info-block-input-text-color;
+		}
+	}
+
+	&__button{
+		max-width: 170px;
+		color: $primary2;
+		border-color: $primary2;
+		background: transparent;
+	}
+
+	&__image-block{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__title,
+	&__description{
+		margin-bottom: 25px;
+	}
+}
