@@ -22,6 +22,10 @@ li {
 button {
   cursor: pointer; }
 
+.wrapper {
+  padding-left: 405px !important;
+  padding-right: 405px !important; }
+
 .callback-block__tel-number {
   font-size: 1.6em;
   line-height: 1.9rem;
@@ -38,6 +42,50 @@ button {
   line-height: 1.6rem;
   padding: 12px 26px;
   border: 2px solid; }
+
+.section-title {
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.8rem; }
+
+.products-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  gap: 20px; }
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px 50px;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer; }
+  .product-card:hover .product-card__img {
+    transform: scale(1.2);
+    transition: transform 0.3s linear; }
+  .product-card__img {
+    width: 80%;
+    height: 165px;
+    object-fit: contain; }
+  .product-card__title {
+    color: #333;
+    font-size: 1.4rem;
+    line-height: 2rem; }
+  .product-card__price {
+    color: #000;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.05rem; }
+  .product-card__buy-button {
+    background-color: #f13c6e;
+    color: #fff;
+    border: none; }
+  .product-card__img, .product-card__title, .product-card__price {
+    margin-bottom: 20px; }
 
 .header-navigation {
   background: #e5e5e5; }
@@ -79,10 +127,10 @@ button {
     margin-left: 20px; }
   .header__search-block {
     display: flex;
-    width: 250px;
+    width: 300px;
     border-radius: 40px;
     background-color: #efefef;
-    padding: 5px 20px; }
+    padding: 5px 30px 5px 20px; }
     .header__search-block:hover {
       box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.5); }
   .header__search-icon {
@@ -97,3 +145,17 @@ button {
     display: flex;
     align-items: center;
     gap: 40px; }
+
+.special-offers {
+  background-color: #e5e5e5; }
+  .special-offers__wrapper {
+    padding: 80px 0px; }
+  .special-offers__title {
+    margin-bottom: 38px; }
+
+.recently-viewed-products {
+  background-color: #e5e5e5; }
+  .recently-viewed-products__wrapper {
+    padding: 80px 0px; }
+  .recently-viewed-products__title {
+    margin-bottom: 38px; }
