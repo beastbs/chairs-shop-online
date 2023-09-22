@@ -1,0 +1,35 @@
+.super-product{
+	height: 684px;
+	background-image: url("../assets/super-product/background.png");
+	color:$main-text-color;
+
+	&__wrapper{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	&__title{
+		font-size: 4.8rem;
+		font-weight: bold;
+		line-height: 4.8rem;
+	}
+
+	&__description{
+		font-size: 1.4rem;
+		line-height: 2rem; 
+	}
+
+	&__button{
+		width: 170px;
+		background-color: transparent;
+		border-color: $primary2;
+		color: $primary2;
+	}
+
+	&__title,
+	&__description{
+		margin-bottom: 55px;
+	}
+}
