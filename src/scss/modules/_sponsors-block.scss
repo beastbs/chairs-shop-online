@@ -1,0 +1,8 @@
+.sponsors-block{
+	background: $primary3;
+	&__wrapper{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+	}
+}
