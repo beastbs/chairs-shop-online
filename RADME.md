@@ -16,4 +16,5 @@ Chairs-shop-online
   - info-blocks
   - callback-block
   - default-button
+  - social-links
 3. Выделить общие цвета
