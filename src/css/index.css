@@ -280,6 +280,21 @@ button {
   .footer__tel-number {
     margin-right: 40px; }
 
+.copyright {
+  background: #e5e5e5;
+  padding: 32px 0px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #828282; }
+  .copyright__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .copyright__link {
+    color: #828282; }
+    .copyright__link:hover {
+      border-bottom: none; }
+
 @media (max-width: 1915px) {
   .info-block__wrapper {
     justify-content: center; } }
