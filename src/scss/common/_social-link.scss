@@ -1,5 +1,6 @@
 $social-link-size: 45px;
 $social-link-icon-size: 60%;
+$social-link-hover-color: rgb(229, 229, 230);
 
 .social-link{
 	display: flex;
@@ -8,9 +9,13 @@ $social-link-icon-size: 60%;
 
 	border: 2px solid $primary1;
 	border-radius: 50%;
+	background: $primary2;
 
 	width: $social-link-size;
 	height: $social-link-size;
+	&:hover{
+		background: $social-link-hover-color;
+	}
 
 	&__icon{
 		width: $social-link-icon-size;

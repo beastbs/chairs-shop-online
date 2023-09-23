@@ -13,6 +13,9 @@
 	&__social-link:not(:last-child){
 		margin-right: 20px;
 	}
+	&__social-link:hover{
+		border-bottom-color: $primary1;
+	}
 
 	&__location-text{
 		font-size: 1.4rem;

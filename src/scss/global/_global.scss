@@ -1,3 +1,5 @@
+$wrapper-width: 60%;
+
 * {
 	padding: 0;
 	margin: 0;
@@ -30,6 +32,12 @@ button{
 }
 
 .wrapper{
-	padding-left: 405px!important;
-	padding-right: 405px!important;
+	width: $wrapper-width;
+}
+
+header,
+footer,
+section{
+	display: flex;
+	justify-content: center;
 }

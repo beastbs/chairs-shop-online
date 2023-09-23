@@ -1,6 +1,11 @@
+$super-produc-background-height: 684px;
+
 .super-product{
-	height: 684px;
+	height: $super-produc-background-height;
 	background-image: url("../assets/super-product/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	color:$main-text-color;
 
 	&__wrapper{

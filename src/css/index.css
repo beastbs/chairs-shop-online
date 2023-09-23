@@ -23,8 +23,13 @@ button {
   cursor: pointer; }
 
 .wrapper {
-  padding-left: 405px !important;
-  padding-right: 405px !important; }
+  width: 60%; }
+
+header,
+footer,
+section {
+  display: flex;
+  justify-content: center; }
 
 .callback-block__tel-number {
   font-size: 1.6em;
@@ -144,8 +149,11 @@ button {
   align-items: center;
   border: 2px solid #f13c6e;
   border-radius: 50%;
+  background: #fff;
   width: 45px;
   height: 45px; }
+  .social-link:hover {
+    background: #e5e5e6; }
   .social-link__icon {
     width: 60%;
     height: 60%; }
@@ -226,6 +234,9 @@ button {
 .super-product {
   height: 684px;
   background-image: url("../assets/super-product/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff; }
   .super-product__wrapper {
     height: 100%;
@@ -274,6 +285,8 @@ button {
     display: flex; }
   .footer__social-link:not(:last-child) {
     margin-right: 20px; }
+  .footer__social-link:hover {
+    border-bottom-color: #f13c6e; }
   .footer__location-text {
     font-size: 1.4rem;
     line-height: 1.6rem; }
